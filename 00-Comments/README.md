@@ -17,7 +17,9 @@ Comments do not affect the execution of a program.
 #       Comments at work
 
 There are 2 types of comments in C
+
 `Single line` comment (// comment goes here)
+
 `Multiline comment` (/* comment goes here */)
 
 Single line comment: anything written after // in the line is treated as a comment
