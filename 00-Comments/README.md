@@ -22,8 +22,9 @@ There are 2 types of comments in C
 
 `Multiline comment` (/* comment goes here */)
 
-Single line comment: anything written after // in the line is treated as a comment
-Multiline comment: anything written in between /* and */ is treated as a comment
+Single line comment: anything written after `//` in the line is treated as a comment
+
+Multiline comment: anything written in between `/* and */` is treated as a comment
 
 Note: If we don't want to execute some part(s) of the code, we can comment them so that they can be
 ignored by the compiler.
@@ -38,9 +39,13 @@ instance, you can write a comment in C like this:
 This comment does not increase the size of
 the executable file (binary code), nor does
 it affect the performance speed.
+
 */
 
 which is equivalent to this:
+
 /* This comment does not increase the size of */
+
 /* the executable file (binary code), nor does */
+
 /* it affect the performance speed. */
