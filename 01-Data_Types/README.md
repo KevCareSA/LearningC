@@ -7,6 +7,15 @@ There four `data types` of the C language in detail:
 - `float` data type
 - `double` data type 
 
+
+`char` data type: A data type used to represent a single character. It can hold any ASCII value, and is represented by the keyword `char`.
+
+`int` data type: A data type used to represent whole numbers. It has a range of -2,147,483,648 to 2,147,483,647 on most systems, and is represented by the keyword `int`. 
+
+`float` data type: A data type used to represent decimal numbers. It has a range of 3.4E-38 to 3.4E+38, and is represented by the keyword `float`.
+
+`double` data type: A data type used to represent double-precision floating-point numbers. It has a range of 1.7E-308 to 1.7E+308, and is represented by the keyword `double`.
+
 ---
 
 #   C Keywords
@@ -18,7 +27,7 @@ You should not use the C keywords for your own variable, constant, or function n
 ##      Reserved Keywords in C
 
 ###  Keyword      Description 
-`auto`     &#160;       Storage class specifier
+`auto`       &#160;       Storage class specifier
 
 `break`      &#160;     Statement              
 
