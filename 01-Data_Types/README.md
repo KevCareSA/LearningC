@@ -18,7 +18,7 @@ You should not use the C keywords for your own variable, constant, or function n
 ##      Reserved Keywords in C
 
 ###  Keyword      Description 
-`auto`     &#160;       &#160;Storage class specifier
+`auto`     &#160;       Storage class specifier
 
 `break`      &#160;     Statement              
 
