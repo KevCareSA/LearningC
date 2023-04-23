@@ -1,6 +1,13 @@
 #   Understanding Data Types and Keywords
 
-There four `data types` of the C language in detail:
+The are 2 types of datatypes in the C langauage:
+- Primitive Data types 
+- None Primitive / Derived Data Types
+
+
+Let's look at Primitive data types
+
+The 4 `primitive data types` of the C language in detail:
 
 - `char` data type
 - `int` data type
@@ -8,13 +15,13 @@ There four `data types` of the C language in detail:
 - `double` data type 
 
 
-`char` data type: A data type used to represent a single character. It can hold any ASCII value, and is represented by the keyword `char`.
+`char` data type (%c): A data type used in any symbol from the ASCII chart enclosed in between single quotes and is represented by the keyword `char`. e.g: 'A', '9','$'.
 
-`int` data type: A data type used to represent whole numbers. It has a range of -2,147,483,648 to 2,147,483,647 on most systems, and is represented by the keyword `int`. 
+`int` data type (%d or %i): A data type used to represent whole numbers. It has a range of -2,147,483,648 to 2,147,483,647 on most systems, and is represented by the keyword `int`. 
 
-`float` data type: A data type used to represent decimal numbers. It has a range of 3.4E-38 to 3.4E+38, and is represented by the keyword `float`.
+`float` data type (%f): A data type used to represent decimal numbers. It has a range of 3.4E-38 to 3.4E+38, and is represented by the keyword `float`.
 
-`double` data type: A data type used to represent double-precision floating-point numbers. It has a range of 1.7E-308 to 1.7E+308, and is represented by the keyword `double`.
+`double` data type (%lf): A data type used to represent double-precision floating-point numbers. It has a range of 1.7E-308 to 1.7E+308, and is represented by the keyword `double`.
 
 ---
 
@@ -78,3 +85,8 @@ You should not use the C keywords for your own variable, constant, or function n
 `switch`       &#160;   Statement
 
 `struct`       &#160;   Type specifier
+
+
+
+---- 
+# 
