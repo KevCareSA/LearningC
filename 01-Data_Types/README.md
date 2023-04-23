@@ -7,7 +7,7 @@ The are 2 types of datatypes in the C langauage:
 
 Let's look at Primitive data types
 
-The 4 `primitive data types` of the C language in detail:
+There are 4 `primitive data types` of the C language in detail:
 
 - `char` data type
 - `int` data type
@@ -23,7 +23,14 @@ The 4 `primitive data types` of the C language in detail:
 
 `double` data type (%lf): A data type used to represent double-precision floating-point numbers. It has a range of 1.7E-308 to 1.7E+308, and is represented by the keyword `double`.
 
----
+# Note:
+
+The data type also indicates the  `amount of memory to be allocated` for specific type of data: 
+- `char` = 1 byte
+- `int` = 2 or 4 bytes
+- `float` = 4 bytes
+- `double` = 8 bytes 
+
 
 #   C Keywords
 
@@ -89,4 +96,4 @@ You should not use the C keywords for your own variable, constant, or function n
 
 
 ---- 
-# 
+ 
