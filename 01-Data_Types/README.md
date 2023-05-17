@@ -1,4 +1,4 @@
-#   Understanding Data Types and Keywords
+# Understanding Data Types and Keywords
 
 The are 2 types of datatypes in the C langauage:
 - Primitive Data types 
