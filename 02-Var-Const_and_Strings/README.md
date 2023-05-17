@@ -15,9 +15,9 @@ Instead, a character array is used.
 
 ## Declaration And Initialization Of Variables In C
 
-In order to process different data types and data values in the computer, we need to declare and assign variables. 
+In order to process different data types and data values in the computer, we need to declare and assign variables.
 
-`Declaring ` variables automatically allocates memory to values. 
+`Declaring ` variables automatically allocates memory to values.
 
 ----
 `Declaring a variable:`
@@ -26,16 +26,30 @@ In order to process different data types and data values in the computer, we nee
 
     eg: `int` x;
 
-    :- `int` is the data type and 
+    :- `int` is the data type and
 
     :- `x` is the name of the variable.
 
 ----
 `Initializing a variable:`
 
+- name of variable = value
 
-- name of variable = value 
+    eg: x = 10;
 
-    eg: x = 10; 
+    :- `x` is assigned a value of 10.
+--
+Put together during code:
 
-    :- `x` is assigned a value of 10. 
+include <stdio.h>
+
+int main()  
+{
+
+    int x = 10;   /*declaration and initilization*/
+
+    printf("We have %d bags of sand", x); 
+
+    return (0);
+}
+
