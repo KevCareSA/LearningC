@@ -12,3 +12,28 @@ In C, the variable type matches the variable’s content—the type of value bei
 - `Char` variables hold single values such as the letter 'x'.
 - The C language lacks a `string` variable type.
 Instead, a character array is used.
+
+## Declaration And Initialization Of Variables In C
+
+In order to process different data types and data values in the computer, we need to declare and assign variables. 
+
+`Declaring ` variables automatically allocates memory to values. 
+
+`Declaring a variable:`
+----
+- data_type variable_name
+
+    eg: `int` x;
+
+    :- `int` is the data type and 
+
+    :- `x` is the name of the variable.
+
+`Initializing a variable:`
+----
+
+- name of variable = value 
+
+    eg: x = 10; 
+
+    :- `x` is assigned a value of 10. 
