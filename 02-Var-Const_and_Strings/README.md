@@ -19,8 +19,9 @@ In order to process different data types and data values in the computer, we nee
 
 `Declaring ` variables automatically allocates memory to values. 
 
-`Declaring a variable:`
 ----
+`Declaring a variable:`
+
 - data_type variable_name
 
     eg: `int` x;
@@ -29,8 +30,9 @@ In order to process different data types and data values in the computer, we nee
 
     :- `x` is the name of the variable.
 
-`Initializing a variable:`
 ----
+`Initializing a variable:`
+
 
 - name of variable = value 
 
