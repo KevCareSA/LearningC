@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main()
-{
+{   
+    /*Understanding intergers, variable assigning and placeholders in the printf function*/
+
     int age;
     age = 34;
     
@@ -16,5 +18,8 @@ int main()
     printf("%s is %d years old!\n", "Kevin", age);
     printf("That’s %d months!\n", age*12);
 
-    return(0);
+   
+    
+   
  }
+
