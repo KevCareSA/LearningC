@@ -6,7 +6,7 @@ int xstrlen (char *);
 
 int main()
 {
-    char arr[] = “Bamboozled”;
+    char arr[] = "Bamboozled";
     int len1, len2;
     
     len1 = xstrlen (arr);
