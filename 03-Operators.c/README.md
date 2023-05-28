@@ -47,3 +47,23 @@ If both **LHS** and **RHS** operands are **true** then the result will be **true
 | 	true 	| 	false 	|    	false  		|
 |   false   |   true    |  		false       |
 |   false   |   false   |  		false       |
+
+
+`||`: Logical **Or** Operator:
+If both **LHS** and **RHS** operands are **false** then the result will be **false**, in all other cases the result will be
+**true**
+
+| **LHS**   |  **RHS**  |  **LHS AND RHS**  |
+| --------- | --------- | ------------------|
+|   true    |   true    |  		true        |
+| 	true 	| 	false 	|    	true  		|
+|   false   |   true    |  		true        |
+|   false   |   false   |  		false       | 
+
+`!`: Logical **Not** Operator:
+ If the given operator is true, the result will be false. Vice versa
+
+| **LHS**   |  !**RHS** |
+| --------- | --------- |
+|   true    |   false   |
+|   false   |   true    |
