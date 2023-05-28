@@ -1,14 +1,14 @@
 # OPERATORS
 
 **Expression**:
-    - is a valid combination of operators and operands, on evaluation it yields a result
-    Ex: 2+2, 10-2 etc.
+ - is a valid combination of operators and operands, on evaluation it yields a result
+ Ex: 2+2, 10-2 etc.
 
 **Operator**:
-    - is a symbol which performs an operation on the given operand(s).
+ - is a symbol which performs an operation on the given operand(s).
 
 **Operand**:
-    - is a value on which an operator performs an operation.
+ - is a value on which an operator performs an operation.
 
 Operators in any programming language are broadly categorized into:
 
@@ -37,6 +37,13 @@ relational expressions or conditions.
 
 **Note**: `0` indicates false and any non zero value indicates true
 
-`&&`: Logical And Operator:
+`&&`: Logical **And** Operator:
 If both **LHS** and **RHS** operands are **true** then the result will be **true**, in all other cases the result will be
 **false**
+
+| **LHS**   |  **RHS**  |  **LHS AND RHS**  |
+| --------- | --------- | ------------------|
+|   true    |   true    |  		true        |
+| 	true 	| 	false 	|    	false  		|
+|   false   |   true    |  		false       |
+|   false   |   false   |  		false       |
