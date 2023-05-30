@@ -76,7 +76,7 @@ If both **LHS** and **RHS** operands are **false** then the result will be **fal
 |   true    |   false   |
 |   false   |   true    |
 
-### Arithmetic Operator
+### **Arithmetic Operator**
 
 - There are the four basic arithmetic operators, as well as the modulus operator (`%`), which is used to obtain the division remainder.
 
@@ -91,3 +91,16 @@ If both **LHS** and **RHS** operands are **false** then the result will be **fal
   - modulus (division remainder) -> x = 3 `%` 2; 1
 
 **Notice**: that the division sign gives an incorrect result. This is because it operates on two integer values and will therefore truncate the result and return an integer. To get the correct value, one of the numbers must be explicitly converted to a floating-point number.
+
+### **Relational (<, >, <=, >=. ==, !=)**
+
+Rational operators are also known as `comparison` operators. They find the relationship between two values or they compare the relationship between two values; on comparison they yield either 0 or 1 results.
+
+- `>`: grater than.
+- `<`: less than.
+
+- `<=`: less than or equal to.
+- `>=`: grater than or equal to.
+
+- `==`: equals to.
+- `!=`: not equals to.
