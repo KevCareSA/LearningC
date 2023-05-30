@@ -22,7 +22,7 @@ There are 4 `primitive data types` of the C language in detail:
 
 `double` data type (%lf): A data type used to represent double-precision floating-point numbers. It has a range of 1.7E-308 to 1.7E+308, and is represented by the keyword `double`.
 
-**# Note**
+****Note****
 
 The data type also indicates the  `amount of memory to be allocated` for specific type of data:
 
@@ -31,7 +31,9 @@ The data type also indicates the  `amount of memory to be allocated` for specifi
 - `float` = 4 bytes
 - `double` = 8 bytes
 
-# C Keywords
+----
+
+## C Keywords
 
 The C language reserves certain words that have special meanings to the language.
 Those reserved words are sometimes called C keywords.
