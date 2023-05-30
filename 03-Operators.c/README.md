@@ -1,14 +1,17 @@
 # OPERATORS
 
 **Expression**:
- - is a valid combination of operators and operands, on evaluation it yields a result
+
+- is a valid combination of operators and operands, on evaluation it yields a result
  Ex: 2+2, 10-2 etc.
 
 **Operator**:
- - is a symbol which performs an operation on the given operand(s).
+
+- is a symbol which performs an operation on the given operand(s).
 
 **Operand**:
- - is a value on which an operator performs an operation.
+
+- is a value on which an operator performs an operation.
 
 Operators in any programming language are broadly categorized into:
 
@@ -41,29 +44,50 @@ relational expressions or conditions.
 If both **LHS** and **RHS** operands are **true** then the result will be **true**, in all other cases the result will be
 **false**
 
+**Note**: in `&&`, both conditions have to be **true**.
+
 | **LHS**   |  **RHS**  |  **LHS AND RHS**  |
 | --------- | --------- | ------------------|
-|   true    |   true    |  		true        |
-| 	true 	| 	false 	|    	false  		|
+|   true    |   true    |    	true        |
+|   true    |   false   |  		false       |
 |   false   |   true    |  		false       |
 |   false   |   false   |  		false       |
-
 
 `||`: Logical **Or** Operator:
 If both **LHS** and **RHS** operands are **false** then the result will be **false**, in all other cases the result will be
 **true**
 
+**Note**: in `||`, atleast one conditions has to be **true**.
+
 | **LHS**   |  **RHS**  |  **LHS AND RHS**  |
 | --------- | --------- | ------------------|
 |   true    |   true    |  		true        |
-| 	true 	| 	false 	|    	true  		|
+|   true    |   false   |  		true        |
 |   false   |   true    |  		true        |
-|   false   |   false   |  		false       | 
+|   false   |   false   |  		false       |
 
 `!`: Logical **Not** Operator:
  If the given operator is true, the result will be false. Vice versa
+
+**Note**: `!` revesrese the condition.
 
 | **LHS**   |  !**RHS** |
 | --------- | --------- |
 |   true    |   false   |
 |   false   |   true    |
+
+### Arithmetic Operator
+
+- There are the four basic arithmetic operators, as well as the modulus operator (`%`), which is used to obtain the division remainder.
+
+  - addition ->  x = 3 `+` 2; 5
+
+  - subtraction -> x = 3 `-` 2; 1
+
+  - multiplication -> x = 3 `*` 2; 6
+
+  - division -> x = 3 `/` 2; 1
+
+  - modulus (division remainder) -> x = 3 `%` 2; 1
+
+**Notice**: that the division sign gives an incorrect result. This is because it operates on two integer values and will therefore truncate the result and return an integer. To get the correct value, one of the numbers must be explicitly converted to a floating-point number.
