@@ -47,11 +47,11 @@ If both **LHS** and **RHS** operands are **true** then the result will be **true
 **Note**: in `&&`, both conditions have to be **true**.
 
 | **LHS**   |  **RHS**  |  **LHS AND RHS**  |
-| --------- | --------- | ------------------|
-|   true    |   true    |    	true        |
-|   true    |   false   |  		false       |
-|   false   |   true    |  		false       |
-|   false   |   false   |  		false       |
+| :-------: | :-------: | :----------------:|
+|   true    |   true    |   true       |
+|   true    |   false   |  false       |
+|   false   |   true    |  false       |
+|   false   |   false   |  false       |
 
 `||`: Logical **Or** Operator:
 If both **LHS** and **RHS** operands are **false** then the result will be **false**, in all other cases the result will be
@@ -138,4 +138,118 @@ RHS is a variable and LHS is a value or an exprssion.
 ---
 
 ### **Bitwise (&, |, ~, ^, <<, >>)**
+
+Bitwise operators are used to perform bit-level operations on the operands. The operators are first converted to bit-level and then the calculation is performed on the operands. Mathematical operations such as addition, subtraction, multiplication, etc. can be performed at the bit level for faster processing. 
+
+## 3 Classes of Bitwise Operators
+
+* Unary - used as a prefix to a bit vector
+  * `~` one's [compliment](#bitwise-compliment-operator) / invert
+
+* Binary operators working on 2 vectors of bits.
+  * `&` [and](#bitwise-and)
+  * `|` [or](#bitwise-or)
+  * `^` [exclusive or](#bitwise-exclusive-or)
+
+* Binary shift operators whose format is: `bit vector <operator\> integer`
+  * `<<` [shift left](#bitwise-shift-left)
+  * `>>` [shift right](#bitwise-shift-right)
+
+## Bitwise Compliment Operator
+
+The compliment operator will flip each bit to the opposite value 
+
+* 0's become 1's and 1's become 0's
+* E.g: ~[1, 0, 1, 0] = [0, 1, 0, 1]
+
+Truth Table:
+
+|a|~a|
+|-|-|
+| 0 | 1 |
+| 1 | 0 |
+
+## Bitwise AND (&)
+
+bitwise operator takes two bit vectors **a** & **b** and produces **c**
+
+* Each bit of a and b are compared at i
+* When both a and b are 1, then c is 1.
+* otherwise c is 0.
+
+Truth Table:
+
+|a|b|a & b|
+|:-:|:-:|:---:|
+|0|0|0|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+
+## Bitwise OR ( | )
+
+bitwise operator takes two bit vectors a | b and produces c
+
+* Each bit of **a** and **b** are compared at i
+* When either a **or** b **or** both are 1, then ci is 1.
+* otherwise c is 0.
+* can be seen as the sum of 2 bit vectors if there is no carry
+
+Truth Table:
+
+|a|b|a \| b|
+|:-:|:-:|:---:|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|1|
+
+## Bitwise EXCLUSIVE OR ( ^ )
+
+bitwise operator takes two bit vectors a ^ b and produces c
+
+* Each bit of **a** and **b** are compared at i
+* When either ai and bi are not equal, ci is 1.
+* otherwise ci is 0.
+
+Truth Table:
+
+|a|b|a ^ b|
+|:-:|:-:|:---:|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+## Bitwise Shift Left <<
+
+Shifts the 1 bits left in bit vector by increments and truncates the rest with 0's
+
+* can be also seen as value * 2 in C.
+  ```C
+  int main()
+  {
+  	//           b = 9 (00001001)
+  	unsigned char b = 9;
+
+	// The result is 18 (00010010)
+    printf("b<<1 = %d\n", b << 1);
+  }
+  ```
+
+## Bitwise Shift Right >>
+
+Shifts the 1 bits right in bit vector by increments and truncates the rest with 0's
+
+* can be also seen as value / 2 in C.
+  ```C
+  int main()
+  {
+  	//           b = 9 (00001001)
+  	unsigned char b = 9;
+
+	// The result is 4 (00000100)
+    printf("b>>1 = %d\n", b >> 1);
+  }
+  ```
 
