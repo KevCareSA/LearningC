@@ -104,3 +104,38 @@ Rational operators are also known as `comparison` operators. They find the relat
 
 - `==`: equals to.
 - `!=`: not equals to.
+---
+
+### **Assignment (=, SHA:(+=, -=, *=, /=, %=))***
+
+Assignment operators are used to assign a value to a variable.
+
+`=` : is the assignment operator.
+
+RHS is a variable and LHS is a value or an exprssion.
+
+- **LHS = RHS** where: variable = value or expression
+
+  - a = 5
+
+  - b = 5 + 1
+
+  - x = a + b
+
+  A common use of the assignment and arithmetic operators is to operate on a variable and then to save the result back into that same variable. These operations can be shortened with the combined assignment operators.
+
+  Short Hand Assignment (SHA):
+
+  x `+=` 5; /* x = x + 5; */
+  
+  x `-=` 5; /* x = x - 5; */
+  
+  x `*=` 5; /* x = x * 5; */
+  
+  x `/=` 5; /* x = x / 5; */
+  
+  x `%=` 5; /* x = x % 5; */
+---
+
+### **Bitwise (&, |, ~, ^, <<, >>)**
+
